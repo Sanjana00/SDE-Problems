@@ -14,8 +14,8 @@
 
 ```bash
 # compile
-g++ q_n.cpp -o q_n
+g++ q_n.cpp
 
 # run
-./q_n <in.txt >out.txt
+./a.out
 ```

@@ -1,2 +1,4 @@
 .vscode
 .markdownlint.json
+a.out
+*.txt
