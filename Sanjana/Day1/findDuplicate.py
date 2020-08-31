@@ -1,3 +1,6 @@
+#!/usr/bin/env python3
+import sys
+
 def hareTortoise(arr: [int]) -> int:
     slow = arr[arr[0]]
     fast = arr[arr[arr[0]]]
@@ -10,5 +13,5 @@ def hareTortoise(arr: [int]) -> int:
         fast = arr[slow]
     return slow
 
-arr = [int(x) for x in input().split()]
+arr = [int(x) for x in sys.argv[1:]]
 print("Duplicate: {}".format(hareTortoise(arr)))
