@@ -9,7 +9,7 @@ def repeatMissing(n: int, arr: [int]) -> (int, int):
         else:
             freq[ele] = 1
     miss = S - s + dup
-    return (miss, dup)
+    return miss, dup
 
 n = int(input())
 arr = [int(x) for x in input().split()]
