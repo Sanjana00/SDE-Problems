@@ -1,3 +1,6 @@
+#!/usr/bin/env python3
+import sys
+
 def dutchNationalFlag(n: int, arr: [int]) -> [int]:
     low, mid, high = 0, 0, n - 1
     while mid <= high:
@@ -12,6 +15,6 @@ def dutchNationalFlag(n: int, arr: [int]) -> [int]:
             mid += 1
     return arr
 
-n = int(input())
-arr = [int(x) for x in input().split()]
+n = int(sys.argv[1])
+arr = [int(x) for x in sys.argv[2:]]
 print(*dutchNationalFlag(n, arr))
