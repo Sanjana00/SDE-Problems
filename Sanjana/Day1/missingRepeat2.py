@@ -21,8 +21,11 @@ print("The missing number is {} and the duplicate number is {}".format(*repeatMi
 Array of size n containing numbers from 1 to n. One number is missing and one number is present twice.
 Find missing and duplicate numbers.
 
-S(n) = 1 + 2 + 3 + ... + n = n * (n + 1) // 2
-S2(n) = 1 ** 2 + 2 ** 2 + 3 ** 2 + ... + n ** 2 = n * (n + 1) * (2 * n + 1) // 6
+S(n) = 1 + 2 + 3 + ... + n 
+     = n * (n + 1) // 2
+
+S2(n) = 1 ** 2 + 2 ** 2 + 3 ** 2 + ... + n ** 2 
+      = n * (n + 1) * (2 * n + 1) // 6
 
 Let s = sum of array elements
 and s2 = sum of sqaured array elements

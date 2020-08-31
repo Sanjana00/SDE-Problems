@@ -25,7 +25,8 @@ Find the missing and the duplicate numbers.
 
 Dictionary used to check if number has been encountered more than once. If yes, then duplicate number has been located.
 
-S(n) = 1 + 2 + 3 + ... + n = n * (n + 1) // 2
+S(n) = 1 + 2 + 3 + ... + n 
+     = n * (n + 1) // 2
 
 Therefore, missing number = S(n) - (sum of array - duplicate number)
 
