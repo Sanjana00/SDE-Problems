@@ -1,3 +1,6 @@
+#!/usr/bin/env python3
+import sys
+
 def repeatMissing(n: int, arr: [int]) -> (int, int):
     freq = {}
     s = 0
@@ -11,6 +14,6 @@ def repeatMissing(n: int, arr: [int]) -> (int, int):
     miss = S - s + dup
     return miss, dup
 
-n = int(input())
-arr = [int(x) for x in input().split()]
+n = int(sys.argv[1])
+arr = [int(x) for x in sys.argv[2:]]
 print("The missing number is {} and the duplicate number is {}".format(*repeatMissing(n, arr)))
