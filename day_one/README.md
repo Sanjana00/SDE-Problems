@@ -6,7 +6,7 @@
 
 - [Find the Repeating and the Missing Number.](https://www.geeksforgeeks.org/find-a-repeating-and-a-missing-number/)
 
-- [Merge two sorted Arrays without extra space.](https://www.geeksforgeeks.org/merge-two-sorted-arrays-o1-extra-space/)
+- [Merge two sorted Arrays without extra space.](https://www.geeksforgeeks.org/efficiently-merging-two-sorted-arrays-with-o1-extra-space/)
 
 - [Kadane’s Algorithm.](https://www.geeksforgeeks.org/largest-sum-contiguous-subarray/)
 
