@@ -13,4 +13,9 @@ def mergeIntervals(intervals: [(int, int)]) -> [(int, int)]:
         else:
             result.append(interval)
     return result
-    
+
+n = int(input())
+intervals = [0] * n
+for i in range(n):
+    intervals[i] = tuple(int(x) for x in input().split())
+print(mergeIntervals(intervals))
