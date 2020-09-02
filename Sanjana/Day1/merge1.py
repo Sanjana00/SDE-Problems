@@ -10,6 +10,10 @@ def merge(arr1 : [int], arr2 : [int]) -> [int]:
                 k += 1
         p1 += 1
     return arr1 + arr2
+
+a1 = [int(x) for x in input().split()]
+a2 = [int(x) for x in input().split()]
+print(merge(a1, a2))
     
 
 '''
