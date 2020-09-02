@@ -8,6 +8,8 @@ def kadane(arr: [int]) -> int:
         s = max(s, 0)
     return m
 
+arr = [int(x) for x in input().split()]
+print(kadane(arr))
 
 '''
 
