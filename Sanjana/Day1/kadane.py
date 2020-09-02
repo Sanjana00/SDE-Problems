@@ -7,3 +7,10 @@ def kadane(arr: [int]) -> int:
         m = max(m, s)
         s = max(s, 0)
     return m
+
+
+'''
+
+Finding maximum sum of subarray
+
+'''
