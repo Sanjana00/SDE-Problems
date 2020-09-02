@@ -16,4 +16,6 @@ def merge(arr1 : [int], arr2 : [int]) -> [int]:
 
 Merge two sorted arrays using O(1) space in sorted order
 
+This is not the optimal solution
+
 '''
