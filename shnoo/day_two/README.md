@@ -1,11 +1,21 @@
-[Set Matrix Zeroes](https://leetcode.com/problems/set-matrix-zeroes/)
+# Problems
 
-[Pascal's Triangle](https://leetcode.com/problems/pascals-triangle/)
+- [Set Matrix Zeroes](https://leetcode.com/problems/set-matrix-zeroes/)
 
-[Next Permutation](https://leetcode.com/problems/next-permutation/)
+- [Pascal's Triangle](https://leetcode.com/problems/pascals-triangle/)
 
-[Counting inversions in an array](https://www.geeksforgeeks.org/counting-inversions/)
+- [Next Permutation](https://leetcode.com/problems/next-permutation/)
 
-[Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/)
+- [Counting inversions in an array](https://www.geeksforgeeks.org/counting-inversions/)
 
-[Rotate Image](https://leetcode.com/problems/rotate-image/)
+- [Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/)
+
+- [Rotate Image](https://leetcode.com/problems/rotate-image/)
+
+```bash
+# compile
+g++ q_n.cpp
+
+# run
+./a.out
+```
