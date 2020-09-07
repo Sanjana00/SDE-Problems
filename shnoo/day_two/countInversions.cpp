@@ -45,8 +45,14 @@ class Solution
       if (start < end)
       {
         int mid = (start + end) / 2;
+
+        // inversions for nums[start...mid]
         count += mergeSortAndCount(nums, start, mid);
+
+        // inversions for nums[mid+1...end]
         count += mergeSortAndCount(nums, mid + 1, end);
+
+        // inversions between nums[start...mid] and nums[mid+1...end]
         int j = mid + 1;
         for (int i = start; i <= mid; i++)
         {

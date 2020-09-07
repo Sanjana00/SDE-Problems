@@ -7,10 +7,9 @@ class Solution
   public:
     int solve(vector<int> &nums)
     {
-      int ans = -1;
-      // edge case : empty array
-      if (nums.size() > 0)
-        ans = maxSumSubArr(nums);
+      int ans = INT_MIN;
+      ans = maxSumSubArr(nums);
+
       return ans;
     }
 
@@ -18,15 +17,22 @@ class Solution
     // Kadane's algorithm - O(n)
     int maxSumSubArr(vector<int>& nums)
     {
-      int localMax = nums[0];
-      int globalMax = nums[0];
-      for (int i = 1; i < nums.size(); i++)
+      if (nums.size() == 0)
+        return 0;
+      else if (nums.size() == 1)
+        return nums[0];
+      else
       {
-        localMax = max(nums[i], localMax + nums[i]);
-        if (localMax > globalMax)
-          globalMax = localMax;
+        int localMax = nums[0];
+        int globalMax = nums[0];
+        for (int i = 1; i < nums.size(); i++)
+        {
+          localMax = max(nums[i], localMax + nums[i]);
+          if (localMax > globalMax)
+            globalMax = localMax;
+        }
+        return globalMax;
       }
-      return globalMax;
     }
 };
 
