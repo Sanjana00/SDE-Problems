@@ -1,9 +1,8 @@
 def kadane(arr: [int]) -> int:
     m = arr[0]
     s = 0
-    n = len(arr)
-    for i in range(n):
-        s += arr[i]
+    for ele in arr:
+        s += ele
         m = max(m, s)
         s = max(s, 0)
     return m
