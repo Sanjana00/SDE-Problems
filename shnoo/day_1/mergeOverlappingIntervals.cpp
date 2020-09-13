@@ -24,6 +24,9 @@ class Solution
   private:
     // O(NlogN + N) time, O(1) space.
     // modifies the input array in-place during traversal.
+    // This isn't actually too correct. Because the array contains
+    // some unnecessary values later on also, and only a part of it would have
+    // to be printed.
     void mergeOverlappingSpaceOptimized(vector<pair <int, int> >& nums)
     {
       sort(nums.begin(), nums.end());
