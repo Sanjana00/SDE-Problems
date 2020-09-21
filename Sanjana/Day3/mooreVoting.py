@@ -1,14 +1,14 @@
 def mooreVoting(arr: [int]) -> int:
     c = 0
-    ele = 0
-    for element in arr:
+    n = 0
+    for ele in arr:
         if c == 0:
-            ele = element
-        if ele == element:
+            n = ele
+        if ele == n:
             c += 1
         else:
             c -= 1
-    return ele
+    return n
 
 arr = [int(x) for x in input().split()]
 print("The majority element is: {}".format(mooreVoting(arr)))
