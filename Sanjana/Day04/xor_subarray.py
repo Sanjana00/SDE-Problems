@@ -20,4 +20,6 @@ print(c)
 '''
 Visualisation: Y ^ X = K => Y = X ^ K
 
+Time Complexity = O(N)
+
 '''
