@@ -5,8 +5,8 @@
 
 ## Member List:
 
-- Sanjana: (usually) codes in Python
+- Sanjana: (usually) codes in ```Python```
 
-- shnoo: (usually) codes in Cpp
+- shnoo: (usually) codes in ```Cpp```
 
-- Arnab: not joined yet
+- Arnab: {has not joined yet}
