@@ -68,12 +68,10 @@ class NQueens:
     
     def display(self):
         cols = [pos % self.n for pos in self.queen_pos]
-        pos = 0
-        for i in range(self.n):
+        for pos in cols:
             row = ['-'] * self.n
-            row[cols[pos]] = 'Q'
+            row[pos] = 'Q'
             print(' '.join(row))
-            pos += 1
             
 n = int(input())
 game = NQueens(n)
