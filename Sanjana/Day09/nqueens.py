@@ -67,7 +67,6 @@ class NQueens:
             self.display()
     
     def display(self):
-        rows = [pos // self.n for pos in self.queen_pos]
         cols = [pos % self.n for pos in self.queen_pos]
         pos = 0
         for i in range(self.n):
