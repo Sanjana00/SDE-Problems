@@ -17,7 +17,5 @@ def combinationSum(arr, target):
 arr = [int(x) for x in input().split()]
 target = int(input())
 
-arr.sort()
-
 for combination in combinationSum(arr, target):
     print(*combination)
