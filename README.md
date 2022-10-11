@@ -8,5 +8,3 @@
 - Sanjana: (usually) codes in ```Python```
 
 - shnoo: (usually) codes in ```Cpp```
-
-- Arnab: {has not joined yet}
